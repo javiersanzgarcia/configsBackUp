@@ -13,5 +13,5 @@ Steps to proced:
 [WIP]
 
 - NerdTree show hidden files
-- ultisnips works with clg
+- ultisnips doesn't work with clg for example
 - Replicate all map keys
