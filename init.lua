@@ -47,7 +47,7 @@ require('packer').startup(function(use)
   use 'tpope/vim-rhubarb'
   use 'lewis6991/gitsigns.nvim'
 
-  use 'navarasu/onedark.nvim' -- Theme inspired by Atom
+  -- use 'navarasu/onedark.nvim' -- Theme inspired by Atom
   use 'nvim-lualine/lualine.nvim' -- Fancier statusline
   use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use 'numToStr/Comment.nvim' -- "gc" to comment visual regions/lines
@@ -69,8 +69,12 @@ require('packer').startup(function(use)
   use 'mhinz/vim-signify' -- add visual update to a file in number Bar
   -- use 'yggdroot/indentline' -- add visual line for scopes / conflict with blankline
   use 'scrooloose/nerdcommenter' -- add comments <leader>c<space>
+  use 'joshdick/onedark.vim' -- another OneDark theme
 
+  use 'honza/vim-snippets' -- for support next plugin
   use 'sirver/ultisnips' -- for snippets as example clg - pip3 install pynvim 
+
+  use 'xiyaowong/nvim-transparent' -- transparent backgroundColor
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
@@ -178,6 +182,22 @@ require('lualine').setup {
     component_separators = '|',
     section_separators = '',
   },
+}
+
+require("transparent").setup {
+  enable = true, -- boolean: enable transparent
+  extra_groups = { -- table/string: additional groups that should be cleared
+    -- In particular, when you set it to 'all', that means all available groups
+
+    -- example of akinsho/nvim-bufferline.lua
+    "BufferLineTabClose",
+    "BufferlineBufferSelected",
+    "BufferLineFill",
+    "BufferLineBackground",
+    "BufferLineSeparator",
+    "BufferLineIndicatorSelected",
+  },
+  exclude = {}, -- table: groups you don't want to clear
 }
 
 -- Enable Comment.nvim
@@ -312,6 +332,17 @@ vim.keymap.set('n', '<leader>tv', ':botright vnew <Bar> :terminal<cr>')
 vim.keymap.set('n', '<leader>th', ':botright new <Bar> :terminal<cr>')
 vim.keymap.set('n', '<leader>b', ':NERDTreeToggle<cr>')
 vim.keymap.set('n', '<leader>qq', ':q!<cr>')
+
+  -- Move Lines
+
+vim.keymap.set('n', '<S-j>', ':m .+1<CR>==')
+vim.keymap.set('n', '<S-k>', ':m .-2<CR>==')
+
+vim.keymap.set('i', '<S-j>', '<Esc>:m .+1<CR>==gi')
+vim.keymap.set('i', '<S-k>', '<Esc>:m .-2<CR>==gi')
+
+vim.keymap.set('v', '<S-j>', ':m \'>+1<CR>gv=gv')
+vim.keymap.set('v', '<S-k>', ':m \'>-2<CR>gv=gv')
 
 -- LSP settings.
 --  This function gets run when an LSP connects to a particular buffer.
