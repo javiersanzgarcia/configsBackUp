@@ -15,3 +15,4 @@ Steps to proced:
 - NerdTree show hidden files
 - ultisnips doesn't work with clg for example
 - Replicate all map keys
+- Intellisense for SCSS (Check with standard CSS)
