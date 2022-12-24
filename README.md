@@ -12,7 +12,7 @@ Steps to proced:
 
 [WIP]
 
-- Remove NerdTree for another browser with integration LSP
+- Remove NerdTree for another browser with integration LSP and Git
 - Intellisense for CSS, SCSS, Javascript, TypeScript
 - Custom map keys for personal 65% keyboard (allow arrows keys)
 - Check themes
