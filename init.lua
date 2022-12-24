@@ -1,7 +1,4 @@
 -- Paste this file in ~/.config/nvim
--- Files for default configuration
-require('settings')
-require('keymaps')
 
 -- Install packer
 local install_path = vim.fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
