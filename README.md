@@ -12,7 +12,7 @@ Steps to proced:
 
 [WIP]
 
-- NerdTree show hidden files
-- ultisnips doesn't work with clg for example
-- Replicate all map keys
-- Intellisense for SCSS (Check with standard CSS)
+- Remove NerdTree for another browser with integration LSP
+- Intellisense for CSS, SCSS, Javascript, TypeScript
+- Custom map keys for personal 65% keyboard (allow arrows keys)
+- Check themes
