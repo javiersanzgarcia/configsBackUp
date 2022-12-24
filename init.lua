@@ -1,4 +1,7 @@
 -- Paste this file in ~/.config/nvim
+-- Files for default configuration
+require('settings')
+require('keymaps')
 
 -- Install packer
 local install_path = vim.fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
@@ -122,6 +125,7 @@ vim.o.hlsearch = false
 
 -- Make line numbers default
 vim.wo.number = true
+vim.wo.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
@@ -259,7 +263,7 @@ vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { de
 -- See `:help nvim-treesitter`
 require('nvim-treesitter.configs').setup {
   -- Add languages to be installed here that you want installed for treesitter
-  ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'typescript', 'javascript' , 'help' },
+  ensure_installed = {'css','dockerfile','graphql','go','help','html','javascript','json','lua','markdown','python','rust','scss','sql','typescript','tsx','yaml'},
 
   highlight = { enable = true },
   indent = { enable = true },
@@ -333,16 +337,24 @@ vim.keymap.set('n', '<leader>th', ':botright new <Bar> :terminal<cr>')
 vim.keymap.set('n', '<leader>b', ':NERDTreeToggle<cr>')
 vim.keymap.set('n', '<leader>qq', ':q!<cr>')
 
-  -- Move Lines
+-- Move in Insert mode
+-- C = Control, A = Alt / Option
 
-vim.keymap.set('n', '<S-j>', ':m .+1<CR>==')
-vim.keymap.set('n', '<S-k>', ':m .-2<CR>==')
+vim.keymap.set('i', '<A-up>', '<up>')
+vim.keymap.set('i', '<A-down>', '<down>')
+vim.keymap.set('i', '<A-left>', '<left>')
+vim.keymap.set('i', '<A-right>', '<right>')
 
-vim.keymap.set('i', '<S-j>', '<Esc>:m .+1<CR>==gi')
-vim.keymap.set('i', '<S-k>', '<Esc>:m .-2<CR>==gi')
+-- Move Lines
 
-vim.keymap.set('v', '<S-j>', ':m \'>+1<CR>gv=gv')
-vim.keymap.set('v', '<S-k>', ':m \'>-2<CR>gv=gv')
+vim.keymap.set('n', '<S-down>', ':m .+1<CR>==')
+vim.keymap.set('n', '<S-up>', ':m .-2<CR>==')
+
+vim.keymap.set('i', '<S-down>', '<Esc>:m .+1<CR>==gi')
+vim.keymap.set('i', '<S-up>', '<Esc>:m .-2<CR>==gi')
+
+vim.keymap.set('v', '<S-down>',':m \'>+1<CR>gv=gv')
+vim.keymap.set('v', '<S-up>', ':m \'>-2<CR>gv=gv')
 
 -- LSP settings.
 --  This function gets run when an LSP connects to a particular buffer.
@@ -492,3 +504,4 @@ cmp.setup {
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
