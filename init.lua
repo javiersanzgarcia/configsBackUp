@@ -9,7 +9,8 @@ if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
   vim.cmd [[packadd packer.nvim]]
 end
 
-require('packer').startup(function(use)
+
+require('packer').startup(function(use) 
   -- Package manager
   use 'wbthomason/packer.nvim'
 
