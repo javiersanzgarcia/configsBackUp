@@ -1,3 +1,5 @@
+-- Paste this file in ~/.config/nvim and subdirectories
+
 require('pracker.base')
 require('pracker.highlights')
 require('pracker.plugins')
