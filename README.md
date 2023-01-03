@@ -7,12 +7,11 @@ Steps to proced:
 
 - init.lua should be copied in ~/.config/nvim
 - Execute :PackerInstall
-- Execute in ZSH in case that you experienced a problem with Python3: pip3 install pynvim
-- Enjoy Vim configuration 🦖
+- Enjoy Neovim configuration 🦖
 
 [WIP]
 
-- Remove NerdTree for another browser with integration LSP and Git
-- Intellisense for CSS, SCSS, Javascript, TypeScript
-- Custom map keys for personal 65% keyboard (allow arrows keys)
-- Check themes
+- Test NeoTree/NeoTerm and integration.
+- Revisit configuration for eslint and multirepos
+- Check Tmux integration or how to manage differents Tabs.
+- Revisit map keys
