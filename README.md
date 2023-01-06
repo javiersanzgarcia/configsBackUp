@@ -14,4 +14,5 @@
 #### WIP
 
 - Test NeoTerm and integration.
-- Revisit configuration for eslint and multirepos
+- Revisit configuration for eslint and multirepos.
+- Amplified snippets configurations
