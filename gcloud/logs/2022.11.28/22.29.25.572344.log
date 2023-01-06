@@ -1,0 +1,11 @@
+2022-11-28 22:29:25,574 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2022-11-28 22:29:25,576 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2022-11-28 22:29:25,578 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "pracker@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "springgcp-297312"]
+2022-11-28 22:29:25,594 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2022-11-28 22:29:25,631 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2022-11-28 22:29:25,794 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2022-11-28 22:29:25,836 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2022-11-28 22:29:26,633 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/springgcp-297312?alt=json HTTP/1.1" 200 None
+2022-11-28 22:29:26,635 INFO     root            Display format: "default value(name)"
+2022-11-28 22:29:26,685 INFO     ___FILE_ONLY___ springgcp
+
