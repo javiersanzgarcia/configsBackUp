@@ -1,17 +1,13 @@
-# configsBackUp
-Some configurations for MAC & Vim
+# dotenvs
 
-- Vimrc is copied as Backup
+Some configurations for MAC & NeoVim
 
-Steps to proced:
+Steps to proceed:
 
-- init.lua should be copied in ~/.config/nvim
 - Execute :PackerInstall
 - Enjoy Neovim configuration 🦖
 
 [WIP]
 
-- Test NeoTree/NeoTerm and integration.
+- Test NeoTerm and integration.
 - Revisit configuration for eslint and multirepos
-- Check Tmux integration or how to manage differents Tabs.
-- Revisit map keys
