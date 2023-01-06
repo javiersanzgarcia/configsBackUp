@@ -1,13 +1,17 @@
 # dotenvs
 
-Some configurations for MAC & NeoVim
+#### Some configurations for MAC
 
-Steps to proceed:
+- Shell environemnt: iTerm 2 - Oh my ZSH - Powerlevel10k (Check zshrc)
 
-- Execute :PackerInstall
+#### Apply configuraiton usual config for Neovim
+
+- Copy directory ~/.config/nvim
+- Open Neovim
+- Execute :PackerSync
 - Enjoy Neovim configuration 🦖
 
-[WIP]
+#### WIP
 
 - Test NeoTerm and integration.
 - Revisit configuration for eslint and multirepos
