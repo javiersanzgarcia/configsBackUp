@@ -5,8 +5,8 @@ ts.setup {
     highlight = {enable = true, disable = {}},
     indent = {enable = true, disable = {}},
     ensure_installed = {
-        "tsx", "toml", "javascript", "typescript", "php", "json", "yaml",
-        "swift", "css", "html", "lua"
+        "markdown", "tsx", "toml", "fish", "php", "json", "yaml", "swift",
+        "css", "html", "lua"
     },
     autotag = {enable = true}
 }
