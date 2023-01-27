@@ -1,5 +1,11 @@
 local status, cmp = pcall(require, "cmp")
 if (not status) then return end
+
+local snip_status_ok, luasnip = pcall(require, "luasnip")
+if not snip_status_ok then return end
+
+require('luasnip.loaders.from_vscode').lazy_load()
+
 local lspkind = require 'lspkind'
 
 local function formatForTailwindCSS(entry, vim_item)
@@ -25,9 +31,7 @@ local function formatForTailwindCSS(entry, vim_item)
 end
 
 cmp.setup({
-    snippet = {
-        expand = function(args) require('luasnip').lsp_expand(args.body) end
-    },
+    snippet = {expand = function(args) luasnip.lsp_expand(args.body) end},
     mapping = cmp.mapping.preset.insert({
         ['<C-d>'] = cmp.mapping.scroll_docs(-4),
         ['<C-f>'] = cmp.mapping.scroll_docs(4),
@@ -38,7 +42,9 @@ cmp.setup({
             select = true
         })
     }),
-    sources = cmp.config.sources({{name = 'nvim_lsp'}, {name = 'buffer'}}),
+    sources = cmp.config.sources({
+        {name = 'nvim_lsp'}, {name = 'buffer'}, {name = 'luasnip'}
+    }),
     formatting = {
         format = lspkind.cmp_format({
             maxwidth = 50,

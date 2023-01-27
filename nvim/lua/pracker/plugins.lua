@@ -23,16 +23,12 @@ packer.startup(function(use)
     use 'nvim-lualine/lualine.nvim' -- Statusline
     use 'nvim-lua/plenary.nvim' -- Common utilities
     use 'onsails/lspkind-nvim' -- vscode-like pictograms
-    use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
-    use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
-    use 'hrsh7th/nvim-cmp' -- Completion
     use 'neovim/nvim-lspconfig' -- LSP
     use 'jose-elias-alvarez/null-ls.nvim' -- Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig.nvim'
-
     use 'glepnir/lspsaga.nvim' -- LSP UIs
-    use 'L3MON4D3/LuaSnip'
+
     use {
         'nvim-treesitter/nvim-treesitter',
         run = function()
@@ -63,5 +59,17 @@ packer.startup(function(use)
     -- Pracker plugins
     use 'eslint/eslint' -- Linter by default
     use {"folke/todo-comments.nvim", requires = {"nvim-lua/plenary.nvim"}}
+
+    -- Autocomplete and Snippets
+
+    use 'hrsh7th/nvim-cmp'
+    use 'hrsh7th/cmp-nvim-lsp'
+    use 'hrsh7th/cmp-nvim-lua'
+    use 'hrsh7th/cmp-buffer'
+    use 'hrsh7th/cmp-path'
+    use 'hrsh7th/cmp-cmdline'
+    use 'L3MON4D3/LuaSnip'
+    use 'rafamadriz/friendly-snippets'
+    use 'saadparwaiz1/cmp_luasnip'
 
 end)
