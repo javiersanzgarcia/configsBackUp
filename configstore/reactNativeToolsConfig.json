@@ -1,7 +1,7 @@
 {
 	"version": "1.10.0",
 	"tipsConfig": {
-		"daysLeftBeforeGeneralTip": 4,
+		"daysLeftBeforeGeneralTip": 5,
 		"firstTimeMinDaysToRemind": 4,
 		"firstTimeMaxDaysToRemind": 6,
 		"minDaysToRemind": 6,
@@ -12,7 +12,9 @@
 			"generalTips": {
 				"elementInspector": {},
 				"logCatMonitor": {},
-				"networkInspector": {},
+				"networkInspector": {
+					"shownDate": "2023-02-04T18:23:02.266Z"
+				},
 				"directDebuggingWithHermes": {
 					"shownDate": "2022-12-30T15:47:46.470Z"
 				},
@@ -30,16 +32,16 @@
 				"networkInspectorLogsColorTheme": {}
 			}
 		},
-		"lastExtensionUsageDate": "2023-01-25T14:21:24.908Z"
+		"lastExtensionUsageDate": "2023-02-04T19:15:31.818Z"
 	},
 	"surveyConfig": {
 		"shortPeriodToRemind": 30,
 		"longPeriodToRemind": 90,
 		"popCoveragePercent": 0.1,
 		"enabled": true,
-		"daysLeftBeforeSurvey": 15,
+		"daysLeftBeforeSurvey": 10,
 		"surveyName": "userSatisfactionSurvey",
 		"surveyUrl": "https://www.surveymonkey.com/r/6FJGVDV",
-		"lastExtensionUsageDate": "2023-01-25T14:21:25.472Z"
+		"lastExtensionUsageDate": "2023-02-04T19:15:32.429Z"
 	}
 }

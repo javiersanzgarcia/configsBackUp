@@ -74,8 +74,14 @@ keymap.set('n', '<leader>tv', ':botright vnew <Bar> :terminal<cr>')
 keymap.set('n', '<leader>th', ':botright new <Bar> :terminal<cr>')
 keymap.set('n', '<leader>qq', ':q!<cr>')
 
--- NeoTree and Move around splits
 local opts = {noremap = true, silent = true}
+
+-- EOL & BOL
+keymap.set('n', '<S-right>', '$', opts)
+keymap.set('n', '<S-left>', '^', opts)
+
+-- NeoTree and Move around splits
+
 keymap.set('n', '<leader>n', ':Neotree<cr>')
 
 keymap.set('n', '<A-left>', '<C-w>h', opts)
