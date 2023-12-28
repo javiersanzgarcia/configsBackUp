@@ -24,7 +24,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-fast-syntax-highlighting
+zsh-syntax-highlighting
 zsh-autosuggestions
 copybuffer
 copyfile
@@ -38,7 +38,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 
 alias zshconfig="code ~/.zshrc"
-alias ll="ls -lGaf"
+alias ll="ls -latGhr"
 alias m="mkdir"
 alias nr="npm run"
 alias ni="npm i"
@@ -70,3 +70,9 @@ export BUILDER_VERSION=randomVersionHash
 # git config --global alias.br branch
 # git config --global alias.ci commit
 # git config --global alias.st status
+
+# Configure zsh, oh-my-zsh and pk10
+# https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi
+
+clear
+neofetch
