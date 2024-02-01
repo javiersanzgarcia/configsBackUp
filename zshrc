@@ -42,6 +42,8 @@ alias ll="ls -latGhr"
 alias m="mkdir"
 alias nr="npm run"
 alias ni="npm i"
+alias nvim="~/nvim.appimage"
+alias sn="sudo -E -s ~/nvim.appimage ."
 alias v=openNvim
 
 function openNvim {
