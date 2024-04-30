@@ -39,7 +39,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias zshconfig="code ~/.zshrc"
 alias lj="ls -latGhr"
-alias pj ="cd ~/code"
+alias pj="cd ~/code"
 alias m="mkdir"
 alias nr="npm run"
 alias ni="npm i"
