@@ -38,12 +38,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 
 alias zshconfig="code ~/.zshrc"
-alias ll="ls -latGhr"
+alias lj="ls -latGhr"
+alias pj ="cd ~/code"
 alias m="mkdir"
 alias nr="npm run"
 alias ni="npm i"
-alias nvim="~/nvim.appimage"
-alias sn="sudo -E -s ~/nvim.appimage ."
+alias sn="sudo -E -s nvim ."
 alias v=openNvim
 
 function openNvim {
