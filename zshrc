@@ -37,7 +37,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Example aliases
 
-alias zshconfig="code ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
 alias lj="ls -latGhr"
 alias pj="cd ~/code"
 alias m="mkdir"
@@ -64,17 +64,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export BUILDER_VERSION=randomVersionHash
-
-# Git aliases by default in ZSH
-# https://www.hschne.at/git-aliases/
-
-# git config --global alias.co checkout
-# git config --global alias.br branch
-# git config --global alias.ci commit
-# git config --global alias.st status
-
-# Configure zsh, oh-my-zsh and pk10
-# https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi
 
 clear
 neofetch

@@ -2,9 +2,10 @@
 
 #### Some configurations for MAC/Linux
 
-- Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k (Check zshrc)
+- Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k
+(https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi)
 - Include fonts compatible with NVIM and Powerlevel10k
-- Some aliases in zshrc
+- Some aliases, configd and plugins in zshrc
 
 #### Docker in Ubuntu
 
@@ -41,3 +42,13 @@ docker context use default
 docker context use desktop-linux
 ```
 
+#### Git aliases by default in ZSH
+
+```
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
+
+- https://www.hschne.at/git-aliases/

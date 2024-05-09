@@ -1,3 +1,0 @@
-2022-12-07 10:15:30,338 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2022-12-07 10:15:30,346 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2022-12-07 10:15:30,349 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "pracker@gmail.com", --configuration: "default", --format: "value(name)", PROJECT_ID_OR_NUMBER: "springgcp-297312"]
