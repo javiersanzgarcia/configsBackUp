@@ -3,6 +3,7 @@
 #### Some configurations for MAC/Linux
 
 - Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k (Check zshrc)
+- Include fonts compatible with NVIM and Powerlevel10k
 - Some aliases in zshrc
 
 #### Docker in Ubuntu
