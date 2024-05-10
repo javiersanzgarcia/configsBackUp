@@ -52,3 +52,17 @@ git config --global alias.st status
 ```
 
 - https://www.hschne.at/git-aliases/
+
+#### Audio devices in Ubuntu
+
+```
+sudo apt update
+sudo apt install chrome-gnome-shell gnome-shell-extension-prefs
+```
+
+Go to: 
+
+https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+
+Install plugin for browser
+And activate the plugin
