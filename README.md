@@ -64,5 +64,18 @@ Go to:
 
 https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 
-Install plugin for browser
-And activate the plugin
+Install plugin for browser and activate the plugin
+
+#### Ubuntu software
+
+WHen you try to update snap store and doesn´t work, launch:
+
+```
+sudo killall snap-store
+```
+
+and usually that fix the issue, but in opposite scenario:
+
+```
+sudo snap refresh snap-store
+```
