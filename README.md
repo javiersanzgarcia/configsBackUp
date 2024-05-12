@@ -79,3 +79,20 @@ and usually that fix the issue, but in opposite scenario:
 ```
 sudo snap refresh snap-store
 ```
+
+### Themes and Icons
+
+1. Install extrensions and Tweaks
+2. Install next extensions:
+
+- Dash to Dock.
+- Sound Input & Output Device Chooser
+- User themes
+
+3. Follow the instructions in their own folders
+4. Select a wallpaper
+5. In Extensions configure the extensions.
+6. Apply cursors, icons and theme (shell section) in Tweaks
+7. For configure Top bar, follow the instructions in this video:
+
+- https://www.youtube.com/watch?v=L1XGDQdW3ns
