@@ -1,2 +1,2 @@
 
-Paste the extracted folder in ~/.icons
+Paste Colloid and Colloid-light in ~/.icons
