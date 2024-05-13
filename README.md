@@ -95,4 +95,12 @@ sudo snap refresh snap-store
 6. Apply cursors, icons and theme (shell section) in Tweaks
 7. For configure Top bar, follow the instructions in this video:
 
-- https://www.youtube.com/watch?v=L1XGDQdW3ns
+- https://www.youtube.com/watch?v=L1XGDQdW3ns (Not valid for xorg, unstable system)
+
+8. Install next plugins:
+
+- btop (substitute of top)
+- dust (substitute du)
+- tldr (substitue of man)
+- atuin: command history db
+- neofetch: Show characteristics of the laptop
