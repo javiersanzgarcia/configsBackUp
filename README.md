@@ -92,7 +92,7 @@ sudo snap refresh snap-store
 3. Follow the instructions in their own folders
 4. Deactivate Wayland for incompatibility with Teams
 
-- /etc/gdm3/custom.conf put WaylandEnable=false
+- /etc/gdm3/custom.conf put WaylandEnable=false and reboot system.
 
 5. Select a wallpaper
 6. In Extensions configure the extensions.
