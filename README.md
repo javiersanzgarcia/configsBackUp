@@ -5,7 +5,7 @@
 - Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k
 (https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi)
 - Include fonts compatible with NVIM and Powerlevel10k
-- Some aliases, configd and plugins in zshrc
+- Review aliases, configs and plugins in zshrc
 
 #### Docker in Ubuntu
 
@@ -53,19 +53,6 @@ git config --global alias.st status
 
 - https://www.hschne.at/git-aliases/
 
-#### Audio devices in Ubuntu
-
-```
-sudo apt update
-sudo apt install chrome-gnome-shell gnome-shell-extension-prefs
-```
-
-Go to: 
-
-https://extensions.gnome.org/extension/906/sound-output-device-chooser/
-
-Install plugin for browser and activate the plugin
-
 #### Ubuntu software
 
 WHen you try to update snap store and doesn´t work, launch:
@@ -112,3 +99,16 @@ sudo snap refresh snap-store
 10. Install Plank MacOS main bar style:
 
 - https://www.youtube.com/watch?v=9Ol_B4WBFoY
+
+#### Audio devices in Ubuntu
+
+```
+sudo apt update
+sudo apt install chrome-gnome-shell gnome-shell-extension-prefs
+```
+
+Go to: 
+
+https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+
+Install plugin for browser and activate the plugin
