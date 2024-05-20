@@ -80,7 +80,7 @@ and usually that fix the issue, but in opposite scenario:
 sudo snap refresh snap-store
 ```
 
-### Themes and Icons
+### General UI
 
 1. Install extrensions and Tweaks
 2. Install next extensions:
@@ -90,14 +90,18 @@ sudo snap refresh snap-store
 - User themes
 
 3. Follow the instructions in their own folders
-4. Select a wallpaper
-5. In Extensions configure the extensions.
-6. Apply cursors, icons and theme (shell section) in Tweaks
-7. For configure Top bar, follow the instructions in this video:
+4. Deactivate Wayland for incompatibility with Teams
+
+- /etc/gdm3/custom.conf put WaylandEnable=false
+
+5. Select a wallpaper
+6. In Extensions configure the extensions.
+7. Apply cursors, icons and theme (shell section) in Tweaks
+8. For configure Top bar, follow the instructions in this video:
 
 - https://www.youtube.com/watch?v=L1XGDQdW3ns (Not valid for xorg, unstable system)
 
-8. Install next plugins:
+9. Install next plugins:
 
 - btop (substitute of top)
 - dust (substitute du)
@@ -105,6 +109,6 @@ sudo snap refresh snap-store
 - atuin: command history db
 - neofetch: Show characteristics of the laptop
 
-9. Install Plank MacOS main bar style:
+10. Install Plank MacOS main bar style:
 
 - https://www.youtube.com/watch?v=9Ol_B4WBFoY
