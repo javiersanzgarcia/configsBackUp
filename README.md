@@ -70,11 +70,11 @@ sudo snap refresh snap-store
 ### General UI
 
 1. Install extrensions and Tweaks
-2. Install next extensions:
+2. Install next extensions (Details in next section):
 
-- Dash to Dock.
 - Sound Input & Output Device Chooser
 - User themes
+- WinTile
 
 3. Follow the instructions in their own folders
 4. Deactivate Wayland for incompatibility with Teams
@@ -100,7 +100,7 @@ sudo snap refresh snap-store
 
 - https://www.youtube.com/watch?v=9Ol_B4WBFoY
 
-#### Audio devices in Ubuntu
+#### Audio devices in Gnome Shell 
 
 ```
 sudo apt update
@@ -111,4 +111,12 @@ Go to:
 
 https://extensions.gnome.org/extension/906/sound-output-device-chooser/
 
-Install plugin for browser and activate the plugin
+In case that is not installed Extensions for browser used, intall it and activate this plugin
+
+#### Tile Windows as Windows SO in Gnome Shell
+
+Go to:
+
+https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/
+
+Activate this plugin
