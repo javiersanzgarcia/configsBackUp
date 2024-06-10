@@ -4,7 +4,9 @@
 
 - Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k
 (https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi)
-- Include fonts compatible with NVIM and Powerlevel10k
+- Install kitty as shell emulator to allow font ligatures and copy kitty configuration.
+  (https://atareao.es/podcast/kitty-el-mejor-terminal-para-linux/)
+- Include fonts compatible with NVIM and Powerlevel10k (For Ubuntu FirCode for WIndows WSL you can use fonts attached)
 - Review aliases, configs and plugins in zshrc
 
 #### Docker in Ubuntu
