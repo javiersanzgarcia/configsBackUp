@@ -1,5 +1,7 @@
 # dotenvs
 
+#### Restart GUI in Ubuntu: ALT - F2, and type r (or restart)
+
 #### Some configurations for MAC/Linux
 
 - Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k
