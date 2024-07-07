@@ -5,10 +5,10 @@
 #### Some configurations for MAC/Linux
 
 - Shell environemnt: ZSH - Oh my ZSH - Powerlevel10k
-(https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi)
+  (<https://dev.to/christopherjael/como-personalizar-tu-terminal-utilizando-oh-my-zsh-con-powerlevel10k-4bdi>)
 - Just UBUNTU: Install kitty as shell emulator to allow font ligatures and copy kitty configuration.
-  (https://atareao.es/podcast/kitty-el-mejor-terminal-para-linux/)
-- Include fonts compatible with NVIM and Powerlevel10k (For Ubuntu FiraCode for Windows WSL or ArchLinux you can use fonts attached)
+  (<https://atareao.es/podcast/kitty-el-mejor-terminal-para-linux/>)
+- Include fonts (with ligatures and icons) compatible with NVIM and Powerlevel10k, from nerd fonts, called D2CodingLigatures
 - Review aliases, configs and plugins in zshrc
 
 #### Docker in Ubuntu
@@ -55,7 +55,7 @@ git config --global alias.ci commit
 git config --global alias.st status
 ```
 
-- https://www.hschne.at/git-aliases/
+- <https://www.hschne.at/git-aliases/>
 
 #### Ubuntu software
 
@@ -90,7 +90,7 @@ sudo snap refresh snap-store
 7. Apply cursors, icons and theme (shell section) in Tweaks
 8. For configure Top bar, follow the instructions in this video:
 
-- https://www.youtube.com/watch?v=L1XGDQdW3ns (Not valid for xorg, unstable system)
+- <https://www.youtube.com/watch?v=L1XGDQdW3ns> (Not valid for xorg, unstable system)
 
 9. Install next plugins:
 
@@ -102,18 +102,18 @@ sudo snap refresh snap-store
 
 10. Install Plank MacOS main bar style:
 
-- https://www.youtube.com/watch?v=9Ol_B4WBFoY
+- <https://www.youtube.com/watch?v=9Ol_B4WBFoY>
 
-#### Audio devices in Gnome Shell 
+#### Audio devices in Gnome Shell
 
 ```
 sudo apt update
 sudo apt install chrome-gnome-shell gnome-shell-extension-prefs
 ```
 
-Go to: 
+Go to:
 
-https://extensions.gnome.org/extension/906/sound-output-device-chooser/
+<https://extensions.gnome.org/extension/906/sound-output-device-chooser/>
 
 In case that is not installed Extensions for browser used, intall it and activate this plugin
 
@@ -121,6 +121,6 @@ In case that is not installed Extensions for browser used, intall it and activat
 
 Go to:
 
-https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/
+<https://extensions.gnome.org/extension/1723/wintile-windows-10-window-tiling-for-gnome/>
 
 Activate this plugin
