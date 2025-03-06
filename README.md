@@ -99,6 +99,7 @@ sudo snap refresh snap-store
 - tldr (substitue of man)
 - atuin: command history db
 - neofetch: Show characteristics of the laptop
+- lsd: ls command more friendly
 
 10. Install Plank MacOS main bar style:
 

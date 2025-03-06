@@ -35,7 +35,15 @@ source $ZSH/oh-my-zsh.sh
 
 # Example aliases
 
-alias lj="ls -latGhr"
+eval "$(starship init zsh)"
+eval "$(atuin init zsh)"
+
+alias top="btop"
+alias man="tldr"
+alias du="dust"
+alias ls="lsd"
+alias ll="lsd -lah"
+alias lj="lsd -latGhr"
 alias m="mkdir"
 alias nr="npm run"
 alias ni="npm i"
@@ -43,6 +51,7 @@ alias sn="sudo -E -s v ."
 alias v=openNvim
 alias pj="~/code"
 alias zshconfig="nvim ~/.zshrc"
+
 
 function openNvim {
   if [ $# -eq 0 ]; then
@@ -60,7 +69,17 @@ autoload -Uz compinit && compinit
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-eval "$(atuin init zsh)"
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:$PATH
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="/Applications/Windsurf.app/Contents/MacOS:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads NVM
+
+export NVM_DEFAULT=20.17.0
+nvm use default
+
+export USER_CORP=X75718SA
+export PASS_CORP=LPr4ck3!
 
 clear
 neofetch
