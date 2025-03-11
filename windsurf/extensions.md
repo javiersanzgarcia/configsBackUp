@@ -63,7 +63,6 @@ windsurf --install-extension rctay.karma-problem-matcher
 windsurf --install-extension richie5um2.vscode-sort-json
 windsurf --install-extension rust-lang.rust-analyzer
 windsurf --install-extension rvest.vs-code-prettier-eslint
-windsurf --install-extension s-nlf-fh.glassit
 windsurf --install-extension sdras.night-owl
 windsurf --install-extension segerdekort.angular-cli
 windsurf --install-extension shardulm94.trailing-spaces
