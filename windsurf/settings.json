@@ -189,7 +189,6 @@
   "editor.largeFileOptimizations": false,
   "editor.lightbulb.enabled": "off",
   "editor.lineHeight": 1.85,
-  "editor.lineNumbers": "relative",
   "editor.links": false,
   "editor.matchBrackets": "never",
   "editor.minimap.enabled": false,
