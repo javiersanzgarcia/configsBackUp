@@ -32,6 +32,7 @@ jsontools
 )
 
 source $ZSH/oh-my-zsh.sh
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # Example aliases
 
