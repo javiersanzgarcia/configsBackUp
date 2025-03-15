@@ -79,8 +79,5 @@ export NVM_DIR="$HOME/.nvm"
 export NVM_DEFAULT=20.17.0
 nvm use default
 
-export USER_CORP=X75718SA
-export PASS_CORP=LPr4ck3!
-
 clear
 neofetch
