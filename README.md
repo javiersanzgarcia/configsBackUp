@@ -50,6 +50,7 @@ sudo systemctl disable docker docker.socket containerd
 docker context ls
 docker context use default
 docker context use desktop-linux
+rm docker-desktop-amd64.deb
 ```
 
 #### Git aliases by default in ZSH
